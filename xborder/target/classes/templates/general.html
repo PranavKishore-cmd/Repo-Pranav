@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="headerfiles">
+<meta charset="UTF-8" />
+<!-- <link th:href="@{/css/styles.css}" rel="stylesheet"> -->
+</head>
+<body>
+	<table th:fragment="header" style="width: 50%">
+		<tr align="center">
+			<td><img
+				src="https://www.millenniumci.com/wp-content/uploads/2019/02/logo.png"
+				alt="X-Border" style="width: 30%;"></td>
+		</tr>
+	</table>
+
+	<p>Go to the next page to see fragments in action</p>
+	<aside>
+		<div>This is a sidebar</div>
+	</aside>
+
+	<table th:fragment="footer"
+		style="width: 50%; background-color: white;">
+		<tr>
+			<td>
+				<hr style="border: 1 thin none; padding-right: 2px;">
+			</td>
+		</tr>
+		<tr>
+			<td>Note: This email is confidential and may be privileged.
+				Please do not copy it, disclose its contents or use it for any
+				purpose as it may contain materials protected by copyright or other
+				intellectual property rights. If you have received it in error,
+				please notify us immediately and then delete it.</td>
+		</tr>
+		<tr>
+			<td align="center"><br></td>
+		</tr>
+		<tr>
+			<td align="center">XBORDER&#8482;</td>
+		</tr>
+	</table>
+
+</body>
+</html>
